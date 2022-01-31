@@ -1,0 +1,18 @@
+.badgeIcon i {
+    color: rgb(107, 107, 243);
+    margin: 10px;
+}
+.badgeIcon span{
+    position: absolute;
+    font-weight:800;
+    top: 6px;
+    left: 60px;
+    padding: 4px 8px;
+    border-radius: 50%;
+    background-color: rgb(255, 141, 11);
+    color: rgb(29, 29, 29);
+}
+
+.badgePicture{
+    
+}
