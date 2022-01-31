@@ -3,8 +3,21 @@
     width: 30%;
     padding: 10px;
     font-size: 16px;
+    margin: 20px;
 }
 .error i {
     padding-right: 10px;
     color: #fa5252;
+}
+
+.success{
+    background-color: #C6F6D5;
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 20px;
+}
+.success i {
+    padding-right: 10px;
+    color: #12b303;
 }
