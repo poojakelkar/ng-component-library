@@ -1,12 +1,12 @@
 .badgeIcon i {
     color: rgb(107, 107, 243);
-    margin: 10px;
+    margin: 30px;
 }
 .badgeIcon span {
     position: absolute;
     font-weight: 800;
-    top: 6px;
-    left: 60px;
+    top: 24px;
+    left: 75px;
     padding: 4px 8px;
     border-radius: 50%;
     background-color: rgb(255, 141, 11);
@@ -14,7 +14,7 @@
 }
 
 .badgePicture {
-    margin: 10px;
+    margin: 30px;
     width: 50px;
     height: 50px;
     overflow: hidden;
@@ -27,9 +27,29 @@
 .badgePicture span {
     position: absolute;
     font-weight: 800;
-    top: 120px;
-    left: 55px;
+    top: 180px;
+    left: 75px;
     padding: 8px 8px;
     border-radius: 50%;
     background-color: rgb(35, 150, 0);
+}
+
+.badgeButton button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #01c5cc;
+    margin: 30px;
+    font-size: medium;
+}
+
+.badgeButton span {
+    position: absolute;
+    font-weight: 800;
+    top: 240px;
+    left: 90px;
+    padding: 4px 8px;
+    border-radius: 50%;
+    background-color: rgb(255, 141, 11);
+    color: rgb(29, 29, 29);
 }
