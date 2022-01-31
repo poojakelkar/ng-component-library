@@ -7,11 +7,11 @@
     border-radius: 10px;
     margin: 10px;
 }
-.primary-btn button:hover{
+.primary-btn button:hover {
     background-color: #225f5e;
 }
 
-.ghost-btn button{
+.ghost-btn button {
     background-color: transparent;
     color: #319795;
     font-size: 14px;
@@ -20,6 +20,22 @@
     border-radius: 10px;
     margin: 10px;
 }
-.ghost-btn button:hover{
+.ghost-btn button:hover {
+    background-color: #89ebe9;
+}
+
+.icon-btn button {
+    background-color: transparent;
+    color: #319795;
+    font-size: 14px;
+    padding: 12px;
+    border-color: #319795;
+    border-radius: 10px;
+    margin: 10px;
+}
+.icon-btn i {
+    padding-right: 10px;
+}
+.icon-btn button:hover {
     background-color: #89ebe9;
 }
