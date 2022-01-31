@@ -53,3 +53,20 @@
 .link-btn a:hover{
     color: #034948;
 }
+
+
+.float-btn button{
+    background-color: transparent;
+    color: #319795;
+    font-size: larger;
+    padding: 12px;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.float-btn:active{
+    float: right;
+}
