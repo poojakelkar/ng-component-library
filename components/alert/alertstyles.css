@@ -5,43 +5,43 @@
     font-size: 16px;
     margin: 20px;
 }
-.error i {
+.error-Icon {
     padding-right: 10px;
     color: #fa5252;
 }
 
-.success{
-    background-color: #C6F6D5;
+.success {
+    background-color: #c6f6d5;
     width: 30%;
     padding: 10px;
     font-size: 16px;
     margin: 20px;
 }
-.success i {
+.success-icon {
     padding-right: 10px;
     color: #12b303;
 }
 
 .warning {
-    background-color: #FEEBC8;
+    background-color: #feebc8;
     width: 30%;
     padding: 10px;
     font-size: 16px;
     margin: 20px;
 }
-.warning i {
+.warning-icon {
     padding-right: 10px;
     color: #da9008;
 }
 
 .info {
-    background-color: #BEE3F8;
+    background-color: #bee3f8;
     width: 30%;
     padding: 10px;
     font-size: 16px;
     margin: 20px;
 }
-.info i {
+.info-icon {
     padding-right: 10px;
     color: #009df8;
 }
