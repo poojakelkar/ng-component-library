@@ -1,46 +1,54 @@
+:root{
+    --first-color: #65fdc3;
+    --second-color: #1E90FF;
+    --white: #fff;
+    --third-color: #8a256f;
+    --black-color: rgb(12, 12, 12);
+}
+
 body {
     display: flex;
     flex-direction: column;
 }
 .card-badges {
-    width: 250px;
-    height: 150px;
+    width: 17.35rem;
+    height: 10rem;
     overflow: hidden;
-    background-color: rgba(168, 231, 247, 0.6);
-    padding: 10px;
-    margin: 20px;
+    background-color: var(--first-color);
+    padding: 0.45rem;
+    margin: 0.25rem;
 }
-.card-badges span {
+.badge1 {
     position: absolute;
     font-weight: 600;
-    top: 10px;
-    left: 280px;
-    padding: 8px 12px;
+    top: 0.30rem;
+    left: 18.2rem;
+    padding: 0.25rem 0.70rem;
     border-radius: 50%;
-    background-color: rgb(0, 107, 230);
-    color: white;
+    background-color: var(--second-color);
+    color: var(--white);
 }
 
 /* dismiss */
 
 .card-dismiss {
-    width: 270px;
-    height: 170px;
+    width: 17rem;
+    height: 10rem;
     overflow: hidden;
-    background-color: #8a256f;
-    padding: 10px;
-    margin: 20px;
-    color: white;
+    background-color: var(--third-color);
+    padding: 0.90rem;
+    margin: 0.50rem;
+    color: var(--white);
 }
-.card-dismiss i {
-    top: 250px;
+.card-dismiss-icon {
+    top: 13rem;
     left: 290px;
     position: absolute;
-    color: rgb(255, 255, 255);
+    color: var(--white);
     
 }
-.card-dismiss i:hover {
-    color: black;
+.card-dismiss-icom:hover {
+    color: var(--black-color);
 }
 
 /* card overlay */
@@ -48,15 +56,15 @@ body {
 .card-overlay {
     position: relative;
     transition: all 0.5s ease-in;
-    width: 250px;
-    height: 150px;
+    width: 17rem;
+    height: 10rem;
     overflow: hidden;
-    margin: 20px;
-    background-color: rgb(88, 39, 39);
+    margin: 1rem;
+    background-color: var(--third-color);
 }
 .overlay__text {
-    color: rgb(85, 3, 3);
-    font-size: 20px;
+    color: var(--third-color);
+    font-size: 2rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -68,69 +76,69 @@ body {
 
 /* card text */
 .card-with-text {
-    background-color: aliceblue;
-    width: 450px;
-    padding: 10px;
+    background-color: var(--second-color);
+    width: 17rem;
+    padding: 0.25rem;
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 0.75rem;
 }
-.card-with-text h3 {
-    border-bottom: 1px solid #ccc;
+.h3-text {
+    border-bottom: 1px solid var(--white);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 0.75rem;
 }
-.card-with-text p {
-    padding: 1rem 0;
-    border-bottom: 1px solid #ccc;
+.para {
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--white);
 }
 
 /* card shadow */
 .card-shadow {
-    width: 250px;
-    height: 170px;
+    width: 15rem;
+    height: 10rem;
     overflow: hidden;
-    background-color: #8a256f;
-    padding: 10px;
-    margin: 40px;
-    color: white;
+    background-color: var(--third-color);
+    padding: 0.25rem;
+    margin: 2rem;
+    color: var(--white);
     box-shadow: 10px 10px 5px grey;
 }
 
 /* horizontal card  */
-.cards img {
+.card-img {
     position: relative;
-    width: 150px;
-    height: 100px;
-    border-radius: 10px;
+    width: 10rem;
+    height: 6rem;
+    border-radius: 0.75rem;
 }
 .cards {
-    background-color: rgb(253, 253, 253);
-    height: 150px;
-    width: 340px;
-    padding: 10px;
+    background-color: var(--white);
+    height: 10rem;
+    width: 22rem;
+    padding: 0.75rem;
 }
 .container {
     display: flex;
-    border-radius: 10px;
+    border-radius: 0.75rem;
     border: 0.01px solid rgb(206, 206, 206);
 }
 .subheadings {
-    margin-left: 10px;
+    margin-left: 0.75rem;
 }
 .header {
-    font-size: 20px;
+    font-size: 1.20rem;
     font-weight: 500;
 }
 .subtext {
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
-    padding: 70px;
+    padding: 4.35rem;
 }
 .container:hover,
 .container:hover .image {
-    background-color: #b3b2b2;
+    background-color: var(--white);
     opacity: 0.8;
 }
