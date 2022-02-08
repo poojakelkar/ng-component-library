@@ -1,72 +1,77 @@
-.primary-btn button {
-    background-color: #319795;
-    color: white;
-    font-size: 14px;
-    padding: 12px;
+:root {
+    --primary-color: #319795;
+    --white: #fff;
+    --second-color: #89ebe9;
+}
+
+.button1 {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 1rem;
+    padding: 1rem;
     border: none;
-    border-radius: 10px;
-    margin: 10px;
+    border-radius: 0.75rem;
+    margin: 1rem;
 }
-.primary-btn button:hover {
-    background-color: #225f5e;
+.button1:hover {
+    background-color: var(--second-color);
 }
 
-.ghost-btn button {
+.button2 {
     background-color: transparent;
-    color: #319795;
-    font-size: 14px;
-    padding: 12px;
-    border-color: #319795;
-    border-radius: 10px;
-    margin: 10px;
+    color: var(--primary-color);
+    font-size: 1rem;
+    padding: 1rem;
+    border-color: var(--primary-color);
+    border-radius: 0.75rem;
+    margin: 1rem;
 }
-.ghost-btn button:hover {
+.button2:hover {
     background-color: #89ebe9;
 }
 
-.icon-btn button {
+.button3 {
     background-color: transparent;
     color: #319795;
-    font-size: 14px;
-    padding: 12px;
+    font-size: 1rem;
+    padding: 1rem;
     border-color: #319795;
-    border-radius: 10px;
-    margin: 10px;
+    border-radius: 0.75rem;
+    margin: 1rem;
 }
-.icon-btn i {
-    padding-right: 10px;
+.icon {
+    padding-right: 1rem;
 }
-.icon-btn button:hover {
-    background-color: #89ebe9;
+.button3:hover {
+    background-color: var(--second-color);
 }
 
-.link-btn button {
+.button4 {
     background-color: transparent;
-    font-size: 18px;
-    padding: 12px;
-    border:none;
-    margin: 10px;
+    font-size: 1rem;
+    padding: 1rem;
+    border: none;
+    margin: 1rem;
 }
-.link-btn a{
-    color: #319795;
+.link{
+    color: var(--second-color);
 }
-.link-btn a:hover{
-    color: #034948;
+.link:hover {
+    color: var(--primary-color);
 }
 
-
-.float-btn button{
+.button5 {
     background-color: transparent;
-    color: #319795;
-    font-size: larger;
-    padding: 12px;
-    height: 50px;
-    width: 50px;
+    color: var(--primary-color);
+    font-size: 2rem;
+    padding: 0.25rem;
+    height: 3rem;
+    width: 3rem;
     overflow: hidden;
     border-radius: 50%;
-    margin: 10px;
+    margin: 1rem;
 }
 
-.float-btn:active{
+.button5:active {
     float: right;
 }
