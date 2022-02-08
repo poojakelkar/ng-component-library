@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     flex-direction: column;
 }
@@ -33,10 +33,11 @@ body{
     color: white;
 }
 .card-dismiss i {
-    top: 34px;
-    left: 520px;
+    top: 250px;
+    left: 290px;
     position: absolute;
-    color: rgb(236, 236, 236);
+    color: rgb(255, 255, 255);
+    
 }
 .card-dismiss i:hover {
     color: black;
@@ -86,7 +87,6 @@ body{
     border-bottom: 1px solid #ccc;
 }
 
-
 /* card shadow */
 .card-shadow {
     width: 250px;
@@ -105,33 +105,32 @@ body{
     width: 150px;
     height: 100px;
     border-radius: 10px;
-  }
-  .cards {
+}
+.cards {
     background-color: rgb(253, 253, 253);
     height: 150px;
     width: 340px;
     padding: 10px;
-  }
-  .container {
+}
+.container {
     display: flex;
     border-radius: 10px;
     border: 0.01px solid rgb(206, 206, 206);
-  }
-  .subheadings {
+}
+.subheadings {
     margin-left: 10px;
-  }
-  .header {
+}
+.header {
     font-size: 20px;
     font-weight: 500;
-  }
-  .subtext {
+}
+.subtext {
     font-size: 15px;
     font-weight: 400;
     padding: 70px;
-  }
-  .container:hover,
-  .container:hover .image {
+}
+.container:hover,
+.container:hover .image {
     background-color: #b3b2b2;
     opacity: 0.8;
-  }
-  
+}
