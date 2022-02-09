@@ -1,13 +1,18 @@
-:root{
+:root {
     --primary-color: #4a4b4b;
     --second-color: #9a16ce;
-    --third-color:#c65efa;
+    --third-color: #c65efa;
     --white: rgb(204, 202, 202);
 }
 .modal {
     width: 22rem;
-    height: 11rem;
+    height: 15rem;
     background-color: var(--primary-color);
+}
+.header {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    color: var(--white);
 }
 .modal-text {
     padding: 0.5rem 1rem;
@@ -24,6 +29,6 @@
     border: none;
     border-radius: 0.45rem;
 }
-.submit:hover{
+.submit:hover {
     background-color: var(--third-color);
 }
