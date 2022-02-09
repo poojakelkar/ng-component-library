@@ -2,7 +2,7 @@
     --primary-color: #4a4b4b;
     --second-color: #9a16ce;
     --third-color: #c65efa;
-    --white: rgb(204, 202, 202);
+    --white: rgb(231, 227, 227);
 }
 .modal {
     width: 22rem;
@@ -10,7 +10,7 @@
     background-color: var(--primary-color);
 }
 .header {
-    font-size: 2rem;
+    font-size: 1.65rem;
     padding: 0.5rem 1rem;
     color: var(--white);
 }
