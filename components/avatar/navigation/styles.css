@@ -1,6 +1,9 @@
 :root{
     --primary-color: #888;
 }
+.head{
+    margin: 1.75rem;
+}
 .navbar {
     display: flex;
     flex-wrap: wrap;
