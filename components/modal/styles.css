@@ -4,18 +4,28 @@
     --third-color: #c65efa;
     --white: rgb(231, 227, 227);
 }
+.modal-overlay {
+    position: absolute;
+    filter: blur(2.22px) grayscale(0.46);
+    height: 100vh;
+    width: 100vw;
+}
 .modal {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
     width: 22rem;
     height: 15rem;
     background-color: var(--primary-color);
+    z-index: 50;
+    padding: 1rem;
 }
 .header {
     font-size: 1.65rem;
-    padding: 0.5rem 1rem;
     color: var(--white);
 }
 .modal-text {
-    padding: 0.5rem 1rem;
     font-size: 1.34rem;
     color: var(--white);
 }
@@ -23,7 +33,6 @@
     display: flex;
     padding: 0.85rem;
     font-size: 1rem;
-    margin: 0rem 0.34rem 0rem 16rem;
     background-color: var(--second-color);
     color: var(--white);
     border: none;
@@ -31,4 +40,8 @@
 }
 .submit:hover {
     background-color: var(--third-color);
+}
+.modal-footer{
+    display: flex;
+    justify-content: flex-end;
 }
