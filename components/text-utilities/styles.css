@@ -1,0 +1,21 @@
+.heading {
+    margin: 4rem;
+}
+.text-size {
+    margin: 4rem;
+}
+.txt-sm {
+    font-size: 0.75rem;
+}
+.txt-base {
+    font-size: 1rem;
+}
+.txt-md {
+    font-size: 1.125rem;
+}
+.txt-lg {
+    font-size: 1.375rem;
+}
+.txt-xl {
+    font-size: 1.625rem;
+}
