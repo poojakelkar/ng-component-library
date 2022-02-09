@@ -1,0 +1,12 @@
+.unordered-list{
+    margin: 4rem;
+}
+.ul-item{
+    font-size: 2rem;
+}
+.ordered-list{
+    margin: 4rem;
+}
+.ol-item{
+    font-size: 2rem;
+}
