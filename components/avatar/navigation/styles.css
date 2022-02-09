@@ -1,7 +1,8 @@
-:root{
+:root {
     --primary-color: #888;
+    --second-color: #557cff;
 }
-.head{
+.head {
     margin: 1.75rem;
 }
 .navbar {
@@ -17,13 +18,12 @@
     height: 2rem;
     border-radius: 5px;
 }
-.fa-lg{
-    padding:1rem;
+.fa-lg {
+    padding: 1rem;
 }
-.btn{
+.btn {
     padding: 0.65rem;
-    background-color: transparent;
+    background-color: var(--second-color);
     border-radius: 0.45rem;
-    border: 1px solid black;
     margin: 1.15rem;
 }
