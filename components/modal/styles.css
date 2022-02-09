@@ -1,0 +1,29 @@
+:root{
+    --primary-color: #4a4b4b;
+    --second-color: #9a16ce;
+    --third-color:#c65efa;
+    --white: rgb(204, 202, 202);
+}
+.modal {
+    width: 22rem;
+    height: 11rem;
+    background-color: var(--primary-color);
+}
+.modal-text {
+    padding: 0.5rem 1rem;
+    font-size: 1.34rem;
+    color: var(--white);
+}
+.submit {
+    display: flex;
+    padding: 0.85rem;
+    font-size: 1rem;
+    margin: 0rem 0.34rem 0rem 16rem;
+    background-color: var(--second-color);
+    color: var(--white);
+    border: none;
+    border-radius: 0.45rem;
+}
+.submit:hover{
+    background-color: var(--third-color);
+}
