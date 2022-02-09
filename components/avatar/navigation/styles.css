@@ -1,0 +1,26 @@
+:root{
+    --primary-color: #888;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    height: 5rem;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+.search {
+    margin: auto;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+.fa-lg{
+    padding:1rem;
+}
+.btn{
+    padding: 0.65rem;
+    background-color: transparent;
+    border-radius: 0.45rem;
+    border: 1px solid black;
+    margin: 1.15rem;
+}
