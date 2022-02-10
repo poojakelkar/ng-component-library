@@ -1,9 +1,11 @@
 :root {
-    --primary-color: #888;
-    --second-color: #557cff;
+    --primary-color: rgb(194, 194, 194);
+    --second-color: #0031d1;
+    --third-color: #fff;
 }
 .head {
     margin: 1.75rem;
+    font-size: 1.25rem;
 }
 .navbar {
     display: flex;
@@ -20,10 +22,14 @@
 }
 .fa-lg {
     padding: 1rem;
+    margin: 0rem 1.75rem 0rem 0rem;
 }
 .btn {
-    padding: 0.65rem;
+    padding: 0.65rem 1rem;
     background-color: var(--second-color);
     border-radius: 0.45rem;
+    border: none;
     margin: 1.15rem;
+    font-size: 1rem;
+    color: var(--third-color);
 }
