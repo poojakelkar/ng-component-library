@@ -1,10 +1,25 @@
+:root{
+    --primary-color: #8a007e;
+    --secondary-color: #005c63;
+    --third: #040404;
+}
+
+
 .heading {
     margin: 4rem;
+    color: var(--primary-color);
+    border: 0.24rem solid var(--third);
+    width: 20rem;
+    padding: 0.45rem;
 }
 
 /* text-size */
 .text-size {
+    padding: 0.45rem;
     margin: 4rem;
+    color: var(--secondary-color);
+    border: 0.24rem solid var(--third);
+    width: 20rem;
 }
 .txt-sm {
     font-size: 0.75rem;
@@ -24,7 +39,11 @@
 
 /* font weight */
 .font-weight {
+    padding: 0.45rem;
     margin: 4rem;
+    color: var(--primary-color);
+    border: 0.24rem solid var(--third);
+    width: 20rem;
 }
 .font-300 {
     font-weight: 300;
@@ -45,8 +64,13 @@
 /* align text */
 
 .centered-text {
+    padding: 0.45rem;
+    margin: 4rem;
+    height: 10rem;
+    color: var(--secondary-color);
+    border: 0.24rem solid var(--third);
     width: 20rem;
-    height: 20rem;
+    font-size: 1.45rem;
 }
 .start {
     text-align: left;
