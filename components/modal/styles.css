@@ -38,9 +38,6 @@
     border: none;
     border-radius: 0.45rem;
 }
-.submit:hover {
-    background-color: var(--third-color);
-}
 .modal-footer{
     display: flex;
     justify-content: flex-end;
