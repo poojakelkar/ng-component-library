@@ -1,7 +1,7 @@
 :root{
-    --primary-color: #8a007e;
-    --secondary-color: #005c63;
-    --third: #040404;
+    --header-text: #8a007e;
+    --paragraph-text: #005c63;
+    --primary-color: #040404;
 }
 
 
