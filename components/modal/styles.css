@@ -7,8 +7,8 @@
 .modal-overlay {
     position: absolute;
     filter: blur(2.22px) grayscale(0.46);
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 .modal {
     position: absolute;
