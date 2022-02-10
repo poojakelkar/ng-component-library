@@ -1,4 +1,4 @@
-.rectangle{
+.rectangle {
     width: 8rem;
     height: 8rem;
     border-radius: 1rem;
@@ -9,11 +9,10 @@
 .img-circle {
     height: 8rem;
     width: 8rem;
-    overflow: hidden;
-    border-radius: 50%;
     margin: 1rem;
 }
 .circle {
     width: 100%;
     height: 100%;
+    border-radius: 50%;
 }
