@@ -5,10 +5,9 @@
     --white: rgb(231, 227, 227);
 }
 .modal-overlay {
-    position: absolute;
+    position: fixed;
     filter: blur(2.22px) grayscale(0.46);
-    height: 100%;
-    width: 100%;
+    inset: 0;
 }
 .modal {
     position: absolute;
