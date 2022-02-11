@@ -1,0 +1,10 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid black;
+}
+.card{
+    width: 20rem;
+    height: 10rem;
+    background-color: aquamarine;
+}

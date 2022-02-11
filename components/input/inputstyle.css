@@ -3,26 +3,26 @@
     --secondary-color: #ad0404;
 }
 
-.input1 {
+.form-control {
     padding: 0.75rem;
     margin: 1rem;
     border-radius: 0.65rem;
 }
 
-.input2 {
+.form-control-icon {
     padding: 0.75rem 0rem 0.75rem 2rem;
     margin: 1rem;
     border-radius: 0.65rem;
 }
 
-.input3 {
+.form-control-success {
     padding: 0.75rem;
     margin: 1rem;
     border: 0.15rem solid var(--primary-color);
     border-radius: 0.65rem;
 }
 
-.input4 {
+.form-control-error {
     padding: 0.75rem;
     margin: 1rem;
     border: 0.15rem solid var(--secondary-color);
