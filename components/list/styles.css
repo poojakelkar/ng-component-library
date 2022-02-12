@@ -1,0 +1,20 @@
+.unordered-list{
+    margin: 4rem;
+}
+.ul-item{
+    font-size: 1.50rem;
+}
+.ordered-list{
+    margin: 4rem;
+}
+.ol-item{
+    font-size: 1.50rem;
+}
+.icon-item{
+    font-size: 1.50rem;
+    margin: 2.23rem;
+    padding: 0.40rem;
+}
+.icon-list{
+    list-style: none;
+}
