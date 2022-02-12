@@ -1,5 +1,25 @@
-/* Alert */
+.main-grid-container {
+    display: grid;
+    grid-template-areas: "menu menu main main main main";
+    grid-gap: 20px;
+    
+    /* padding: 10px; */
+}
+.gridItem1{
+    grid-area: menu;
+    border: 1px solid black;
+}
+.gridItem2{
+    grid-area: main;
+}
 
+/* Alert */
+#alert{
+    margin: 3rem auto 1rem auto;
+    width: 40rem;
+    border: 1px solid black;
+    align-items: center;
+}
 :root {
     --light-orange: #fed7d7;
     --red: #fa5252;
@@ -13,10 +33,10 @@
 
 .error {
     background-color: var(--light-orange);
-    width: 30%;
+    width: 40%;
     padding: 1rem;
     font-size: 1rem;
-    margin: 2rem;
+    margin: 0.75rem;
 }
 .error-Icon {
     padding-right: 1rem;
@@ -25,10 +45,10 @@
 
 .success {
     background-color: var(--light-green);
-    width: 30%;
+    width: 40%;
     padding: 1rem;
     font-size: 1rem;
-    margin: 2rem;
+    margin: 0.75rem;
 }
 .success-icon {
     padding-right: 1rem;
@@ -36,10 +56,10 @@
 }
 .warning {
     background-color: var(--light-yellow);
-    width: 30%;
+    width: 40%;
     padding: 1rem;
     font-size: 1rem;
-    margin: 2rem;
+    margin: 0.75rem;
 }
 .warning-icon {
     padding-right: 1rem;
@@ -48,10 +68,10 @@
 
 .info {
     background-color: var(--light-blue);
-    width: 30%;
+    width: 40%;
     padding: 1rem;
     font-size: 1rem;
-    margin: 2rem;
+    margin: 0.75rem;
 }
 .info-icon {
     padding-right: 1rem;
@@ -69,7 +89,9 @@
     width: 3rem;
     overflow: hidden;
     border-radius: 50%;
-    margin: 0.75rem;
+    margin: auto;
+    border-bottom: 1px solid var(--black);
+    margin-top: 1rem;
 }
 .avatar-img {
     width: 100%;
@@ -106,16 +128,24 @@
     --blue: #01c5cc;
     --white: #ffff;
 }
-
+#badge{
+    margin: 3rem auto 1rem auto;
+    padding: 0.40rem;
+    border: 1px solid black;
+    width: 40rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .message {
     color: var(--violet);
-    margin: 3rem;
 }
 .badge-icon {
     position: absolute;
     font-weight: 800;
-    top: 2.25rem;
-    left: 6rem;
+    top: 18.80rem;
+    left: 62rem;
     padding: 0.25rem 0.5rem;
     border-radius: 50%;
     background-color: var(--orange);
@@ -123,7 +153,7 @@
 }
 
 .badgePicture {
-    margin: 3rem;
+    margin: 1rem;
     width: 3rem;
     height: 3.1rem;
     overflow: hidden;
@@ -136,8 +166,8 @@
 .badge-picture {
     position: absolute;
     font-weight: 800;
-    top: 14.4rem;
-    left: 5.6rem;
+    top: 25.90rem;
+    left: 62rem;
     padding: 8px 8px;
     border-radius: 50%;
     border: 3px solid var(--white);
@@ -149,14 +179,14 @@
     border: none;
     border-radius: 5px;
     background-color: var(--blue);
-    margin: 3rem;
+    margin: 1rem;
     font-size: 1rem;
 }
 .badgeButton span {
     position: absolute;
     font-weight: 800;
-    top: 21rem;
-    left: 7.4rem;
+    top: 28rem;
+    left: 63rem;
     padding: 0.25rem 0.5rem;
     border-radius: 50%;
     background-color: var(--violet);
@@ -165,12 +195,18 @@
 /* badge close */
 
 /* button */
+#button{
+    margin: 3rem auto 1rem auto;
+    width: 40rem;
+    border: 1px solid black;
+    align-items: center;
+}
+
 :root {
     --primary-color: #319795;
     --white: #fff;
     --second-color: #89ebe9;
 }
-
 .click-me-btn {
     background-color: var(--primary-color);
     color: var(--white);
@@ -178,7 +214,6 @@
     padding: 1rem;
     border: none;
     border-radius: 0.75rem;
-    margin: 1rem;
 }
 .click-me-btn:hover {
     background-color: var(--second-color);
@@ -245,6 +280,13 @@
 /* btton close */
 
 /* card */
+#card{
+    margin: 3rem auto 1rem auto;
+    width: 40rem;
+    border: 1px solid black;
+    align-items: center;
+}
+
 :root{
     --green-title-color: #65fdc3;
     --light-blue-color: #1E90FF;
@@ -265,11 +307,11 @@ body {
     padding: 0.45rem;
     margin: 0.25rem;
 }
-.badge1 {
+.card-badge1 {
     position: absolute;
     font-weight: 600;
-    top: 0.30rem;
-    left: 18.2rem;
+    top: 100rem;
+    left: 60rem;
     padding: 0.25rem 0.70rem;
     border-radius: 50%;
     background-color: var(--pink-mixure-color);
@@ -288,8 +330,8 @@ body {
     color: var(--black-color);
 }
 .card-dismiss-icon {
-    top: 13rem;
-    left: 290px;
+    top: 100rem;
+    left: 50rem;
     position: absolute;
     color: var(--white);
     
@@ -392,6 +434,13 @@ body {
 /* card close */
 
 /* image */
+#image{
+    margin: 3rem auto 1rem auto;
+    width: 40rem;
+    border: 1px solid black;
+    align-items: center;
+}
+
 .rectangle{
     width: 8rem;
     height: 8rem;
@@ -414,6 +463,13 @@ body {
 /* image close */
 
 /* list */
+#list{
+    margin: 3rem auto 1rem auto;
+    width: 40rem;
+    border: 1px solid black;
+    align-items: center;
+}
+
 .unordered-list{
     margin: 4rem;
 }
@@ -438,6 +494,13 @@ body {
 /* list close */
 
 /* modal */
+#modal{
+    margin: 3rem auto 1rem auto;
+    width: 40rem;
+    border: 1px solid black;
+    align-items: center;
+}
+
 :root {
     --dark-grey-color: #4a4b4b;
     --violet-pink-color: #9a16ce;
@@ -451,9 +514,9 @@ body {
 }
 .modal {
     position: absolute;
-    left: 50%;
+    left: 70%;
     transform: translate(-50%, -50%);
-    top: 50%;
+    top: 260rem;
     width: 22rem;
     height: 15rem;
     background-color: var(--dark-grey-color);
