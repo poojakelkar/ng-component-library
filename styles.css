@@ -787,3 +787,35 @@ body {
     font-size: 1rem;
 }
 /* input close */
+/* snakbar */
+:root{
+    --snack-background-color: #333;
+    --snack-font-color: #cacaca;
+    --snack-btn-color: #cc27f5;
+}
+.snackbar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25rem;
+    height: 2.34rem;
+    background-color: var(--snack-background-color);
+    color: var(--snack-font-color);
+}
+.snackbar-message{
+   margin: 0.5rem;
+   font-size: 1.10rem;
+}
+.snackbar-btn{
+    padding: 0rem 0.25rem 0rem 1.80rem;
+    background-color: transparent;
+    border: none;
+    color: var(--snack-btn-color);
+    font-size: 1.10rem;
+    font-weight: 600;
+}
+.snackbar-close{
+    padding: 0.1rem 0.25rem 0rem 1rem;
+    background-color: transparent;
+    border: none;
+    color: var(--snack-font-color);
+}
