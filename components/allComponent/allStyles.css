@@ -12,6 +12,14 @@
 .gridItem2{
     grid-area: main;
 }
+.main-side-bar{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    margin: auto;
+    padding: 1rem;
+    text-decoration: none;
+}
 
 /* Alert */
 #alert{
@@ -167,7 +175,7 @@
     position: absolute;
     font-weight: 800;
     top: 25.90rem;
-    left: 62rem;
+    left: 61rem;
     padding: 8px 8px;
     border-radius: 50%;
     border: 3px solid var(--white);
@@ -547,6 +555,10 @@ body {
 /* modal-close */
 
 /* nav bar */
+#navbar{
+    margin: 3rem auto auto auto;
+}
+
 :root {
     --nav-color: rgb(194, 194, 194);
     --dark-blue-color: #0031d1;
@@ -585,6 +597,13 @@ body {
 /* nav-bar close */
 
 /* rating */
+#ratings{
+    margin: 3rem auto 1rem auto;
+    width: 40rem;
+    border: 1px solid black;
+    align-items: center;
+}
+
 :root {
     --star-color: #ffa845;
     --light-star-color: #ffcb83;
@@ -610,7 +629,6 @@ body {
 /* rating close */
 
 /* grid */
-
 :root {
     --white: #fff;
     --font-grey-color: #888;
@@ -627,7 +645,7 @@ body {
 .card-product {
     display: flex;
     flex-wrap: wrap;
-    margin: 3rem 7rem;
+    margin: 3rem 0rem;
     width: 40rem;
     height: 21rem;
     background-color: var(--white);
@@ -636,7 +654,7 @@ body {
     -moz-box-shadow: -9px -3px 73px -43px rgba(0, 0, 0, 0.75);
 }
 .image-product {
-    position: fixed;
+    position: absolute;
     width: 18rem;
     height: 21rem;
 }
@@ -728,12 +746,18 @@ body {
 
 /* grid-close */
 /* text utilities */
+#text-utilities{
+    margin: 3rem auto 1rem auto;
+    width: 40rem;
+    border: 1px solid black;
+    align-items: center;
+}
+
 :root{
     --dark-pink-text: #8a007e;
     --paragraph-text: #005c63;
     --black: #040404;
 }
-
 
 .heading {
     margin: 4rem;

@@ -21,20 +21,24 @@
           <div class="side-bar gridItem1">
               
               <div class="all-Links">
-                  <a href="#avatar">Avatar</a>
-                  <a href="#badge">Badge</a>
-                  <a href="#alert">alert</a>
-                  <a href="#button">button</a>
-                  <a href="#card">Card</a>  
-                  <a href="#image">Image</a>
-                  <a href="#list">List</a>
-                  <a href="#modal">Modal</a>
+                  <a class="main-side-bar" href="#avatar">Avatar</a>
+                  <a class="main-side-bar" href="#badge">Badge</a>
+                  <a class="main-side-bar" href="#alert">alert</a>
+                  <a class="main-side-bar" href="#button">button</a>
+                  <a class="main-side-bar" href="#card">Card</a>  
+                  <a class="main-side-bar" href="#image">Image</a>
+                  <a class="main-side-bar" href="#list">List</a>
+                  <a class="main-side-bar" href="#modal">Modal</a>
+                  <a class="main-side-bar" href="#navbar">Navigation</a>
+                  <a class="main-side-bar" href="#ratings">Ratings</a>
+                  <a class="main-side-bar" href="#simplified-grid">Simplified-Grid</a>
 
               </div>
           </div>
       
             <div class="grid-container gridItem2">
                 <!-- avatar -->
+                <p class="same-paragraph"></p>
                 <div id="avatar">
                     <div class='avatar'>
                         <img class="avatar-img" src='https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80' />
@@ -271,6 +275,119 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- navigation -->
+                <div id="navbar">
+                    <nav class="navbar">
+                        <p class="head">MyWebsite</p>
+                        <input class="search" type="text" placeholder="Search"></input>
+            
+                        <div class="nav-right-container">
+                            <button class="login-btn">Login</button>
+                            <i class="far fa-heart fa-lg"></i>
+                            <i class="fas fa-shopping-cart fa-lg"></i>
+                        </div>
+                    </nav>
+                </div>
+
+                <!-- ratings -->
+                <div id="ratings">
+                    <div class="check-ratings">
+                        <span class="fa fa-star checking fa-2x"></span>
+                        <span class="fa fa-star checking fa-2x"></span>
+                        <span class="fa fa-star unchecked fa-2x"></span>
+                        <span class="fa fa-star unchecked fa-2x"></span>
+                        <span class="fa fa-star unchecked fa-2x"></span>
+                    </div>
+            
+                    <div class="ratings">
+                        <span class="fa fa-star unchecked fa-2x"></span>
+                        <span class="fa fa-star unchecked fa-2x"></span>
+                        <span class="fa fa-star unchecked fa-2x"></span>
+                        <span class="fa fa-star unchecked fa-2x"></span>
+                        <span class="fa fa-star unchecked fa-2x"></span>
+                    </div>
+            
+                    <div class="border-ratings">
+                        <span class="fa fa-star checked fa-2x"></span>
+                        <span class="fa fa-star checked fa-2x"></span>
+                        <span class="fa fa-star checked fa-2x"></span>
+                        <span class="fa fa-star checked fa-2x"></span>
+                        <span class="fa fa-star checked fa-2x"></span>
+                    </div>            
+                </div>
+
+                <!-- simplified-grid -->
+                <div id="simplified-grid">
+                    <div class="grid-container-product">
+                        <div class="card-product">
+                            <img class="image-product" src="coat.jpg">
+                            <div class="card-title">
+                                <p class="img-label">Man Premium Coat</p>
+                                <label class="product-price"
+                                    >₹ 600 <del class="strike">₹ 3000</del></label
+                                >
+                                <p class="off">50% Off</p>
+                                <div class="quantity">
+                                    <span>Quantity:</span>
+                                    <span class="add">-</span>
+                                    <span class="quantity-total">1</span>
+                                    <span class="add">+</span>
+                                </div>
+                                <button class="remove-btn">Remove from Cart</button>
+                                <button class="move-btn">Move to Wishlist</button>
+                            </div>
+                        </div>
+            
+                        <div class="price-container">
+                            <p class="price-title">Card Title</p>
+            
+                            <div class="price-body">
+                                <label class="price-label">Price (2 items)<p class="price">₹ 1200</p></label>
+            
+                                <label  class="price-label">Discount<p class="price">- ₹ 1999</p></label>
+            
+                                <label class="price-label">Delivery Charges<p class="price">₹ 400</p></label>
+            
+                                <label class="price-label total">TOTAL AMOUNT<p class="price">₹ 1600</p></label>
+                            </div>
+            
+                            <p class="price-footer">You will save ₹1999 on this order</p>
+            
+                            <button class="place-order">Place Order</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- text-utilities -->
+                <div id="text-utilities">
+                    <div class="heading">
+                        <h1 class="h1">This is Heading1</h1>
+                        <h2 class="h2">This is Heading2</h2>
+                        <h3 class="h3">This is Heading3</h3>
+                        <h4 class="h4">This is Heading4</h4>
+                        <h5 class="h5">This is Heading5</h5>
+                    </div>
+                    <div class="text-size">
+                        <p class="txt-sm">This is small Text</p>
+                        <p class="txt-base">This is regular Text</p>
+                        <p class="txt-md">This is medium Text</p>
+                        <p class="txt-lg">This is large Text</p>
+                        <p class="txt-xl">This is extra large Text</p>
+                    </div>
+                    <div class="font-weight">
+                        <p class="font-300">Light Text</p>
+                        <p class="font-400">Regular Text</p>
+                        <p class="font-500">Medium Text</p>
+                        <p class="font-600">Semi-bold Text</p>
+                        <p class="font-700">Bold Text</p>
+                    </div>
+                    <div class="centered-text">
+                        <p class="start">Text Align Start</p>
+                        <p class="centered">Text Align Center</p>
+                        <p class="end">Text Align End</p>
+                    </div>
+                </div>
+
 
 
 
