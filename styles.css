@@ -626,6 +626,7 @@ body {
     height: 23rem;
     background-color: var(--white);
     padding: 1rem;
+    border: 1px solid black;
 }
 .price-label {
     display: flex;
