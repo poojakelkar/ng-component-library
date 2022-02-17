@@ -247,7 +247,7 @@
 /* card */
 :root {
     --green-title-color: #65fdc3;
-    --light-blue-color: #1e90ff;
+    --light-blue-color: #409efc;
     --white: #fff;
     --pink-mixure-color: #8a256f;
     --black-color: rgb(12, 12, 12);
@@ -484,7 +484,7 @@ body {
 
 /* nav bar */
 :root {
-    --nav-color: rgb(194, 194, 194);
+    --nav-color: #f8f9fa;
     --dark-blue-color: #0031d1;
     --white: #fff;
 }
