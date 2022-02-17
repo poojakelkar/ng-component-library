@@ -21,257 +21,510 @@
           <div class="side-bar gridItem1">
               
               <div class="all-Links">
-                  <a href="#avatar">Avatar</a>
-                  <a href="#badge">Badge</a>
-                  <a href="#alert">alert</a>
-                  <a href="#button">button</a>
-                  <a href="#card">Card</a>  
-                  <a href="#image">Image</a>
-                  <a href="#list">List</a>
-                  <a href="#modal">Modal</a>
+                  <a class="main-side-bar" href="#avatar">Avatar</a>
+                  <a class="main-side-bar" href="#badge">Badge</a>
+                  <a class="main-side-bar" href="#alert">Alert</a>
+                  <a class="main-side-bar" href="#button">Button</a>
+                  <a class="main-side-bar" href="#card">Card</a>  
+                  <a class="main-side-bar" href="#image">Image</a>
+                  <a class="main-side-bar" href="#list">List</a>
+                  <a class="main-side-bar" href="#modal">Modal</a>
+                  <a class="main-side-bar" href="#navbar">Navigation</a>
+                  <a class="main-side-bar" href="#ratings">Ratings</a>
+                  <a class="main-side-bar" href="#simplified-grid">Simplified-Grid</a>
+                  <a class="main-side-bar" href="#input">Input</a>
+                  <a class="main-side-bar" href="#snackbar">Snackbar</a>
+                  <a class="main-side-bar" href="#text-utilities">Text-Utilities</a>
+
 
               </div>
           </div>
       
             <div class="grid-container gridItem2">
                 <!-- avatar -->
+                
                 <div id="avatar">
-                    <div class='avatar'>
-                        <img class="avatar-img" src='https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80' />
-                    </div>
-                    
-                    <div class='avatar no-src'>
-                        <p>K T</p>
-                    </div>
-                    
-                    <div class='avatar no-src-no-name'>
-                        <img class="avatar-img" src='https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png' />
+                        <ul class="avatar-list">
+                            <p class="same-paragraph">3 Avatar-Component  </p>
+                            <li>Avatar: The image that represents the user.</li>
+                            <li>Avatar no-src: A wrapper that displays its content of the avatar.</li>
+                            <li>Avatar no-src-no-name: A wrapper that displays user icon of the avatar.</li>
+                        </ul> 
+                  
+                    <div class="avatar-container">
+                        <div class='avatar'>
+                            <img class="avatar-img" src='https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80' />
+                        </div>
+                        
+                        <div class='avatar no-src'>
+                            <p>K T</p>
+                        </div>
+                        
+                        <div class='avatar no-src-no-name'>
+                            <img class="avatar-img" src='https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png' />
+                        </div>
                     </div>
                 </div>
 
 
                 <!-- badge -->
                 <div  id="badge">
-                    <h3>Badge</h3>
-                    <div class="badgeIcon">
-                        <i class="fas fa-envelope fa-3x message"></i>
-                        <span class="badge-icon">4</span>
-                    </div>
+                        <ul class="badge-list">
+                            <p class="same-paragraph">3 Badge-Component  </p>
+                            <li>Badge-Icon: Tha badge with icon </li>
+                            <li>Badge with picture: The badge shows online offline status</li>
+                            <li>Badge with button: The badge with button</li>
+                        </ul> 
+                        <div class="badge-container">
+                            <div class="badgeIcon">
+                                <i class="fas fa-envelope fa-3x message"></i>
+                                <span class="badge-icon">4</span>
+                            </div>
 
-                    <div class="badgePicture">
-                        <img class="badgepic" src="pic.jpg" />
-                        <span class="badge-picture"></span>
-                    </div>
+                            <div class="badgePicture">
+                                <img class="badgepic" src="pic.jpg" />
+                                <span class="badge-picture"></span>
+                            </div>
 
-                    <div class="badgeButton">
-                        <button class="badge-add">Added</button>
-                        <span class="add-btn">4</span>
-                    </div>
+                            <div class="badgeButton">
+                                <button class="badge-add">Added</button>
+                                <span class="add-btn">4</span>
+                            </div>
+                        </div>
                 </div>
-
                <!-- input -->
                 <div id="alert">
                 
-                    <div class="error">
-                        <i class="fas fa-exclamation-circle error-Icon"></i>
-                        <span>There was an error to processing your work.</span>
-                    </div>
-            
-                    <div class="success">
-                        <i class="fas fa-check-circle success-icon"></i>
-                        <span>Succesfully Done the process.</span>
-                    </div>
-            
-                    <div class="warning">
-                        <i class="fas fa-exclamation-circle warning-icon"></i>
-                        <span>Your balance is about to expire.</span>
-                    </div>
-            
-                    <div class="info">
-                        <i class="fas fa-info-circle info-icon"></i>
-                        <span>Meeting has been schedule tonight.</span>
+                    <ul class="input-list">
+                        <p class="same-paragraph">4 Alert-Component  </p>
+                        <li>Error-Alert: Error Alert to show an error</li>
+                        <li>Success-Alert: Success Alert for success</li>
+                        <li>Warning-Alert: Warning Alert for warning</li>
+                        <li>Information-Alert: Info Alert for Information</li>
+                    </ul> 
+                    <div class="input-container">
+                        <div class="error">
+                            <i class="fas fa-exclamation-circle error-Icon"></i>
+                            <span>There was an error to processing your work.</span>
+                        </div>
+                
+                        <div class="success">
+                            <i class="fas fa-check-circle success-icon"></i>
+                            <span>Succesfully Done the process.</span>
+                        </div>
+                
+                        <div class="warning">
+                            <i class="fas fa-exclamation-circle warning-icon"></i>
+                            <span>Your balance is about to expire.</span>
+                        </div>
+                
+                        <div class="info">
+                            <i class="fas fa-info-circle info-icon"></i>
+                            <span>Meeting has been schedule tonight.</span>
+                        </div>
                     </div>
                 </div>
 
                 <!-- button -->
                 <div id="button">
-                    <div class="primary-btn">
-                        <button class="click-me-btn">Click Me</button>
-                    </div>
-            
-                    <div class="ghost-btn">
-                        <button class="ghost-click-me-btn">Click Me</button>
-                    </div>
-            
-                    <div class="icon-btn">
-                        <button class="icon-btn-order"><i class="fas fa-shopping-bag icon-order"></i>Order</button>
-                    </div>
-            
-                    <div class="link">
-                        <button class="link-btn"><a  class="clink-me-link" href="/">Click Me!</a></button>
-                    </div>
-            
-                    <div class="float-btn">
-                        <button class="btn-float">+</button>
+                    <ul class="button-list">
+                        <p class="same-paragraph">5 Button-Component  </p>
+                        <li>Primary-Button: Added Primary button with normal size</li>
+                        <li>Ghost-Button: Added Ghost button with hover</li>
+                        <li>Icon-Button: Added Icon button with Icon </li>
+                        <li>Link-Button: Added Link button</li>
+                        <li>Float-Button: Added Float button with floating style</li>
+                    </ul>
+                    <div class="button-container">
+                        <div class="primary-btn">
+                            <button class="click-me-btn">Click Me</button>
+                        </div>
+                
+                        <div class="ghost-btn">
+                            <button class="ghost-click-me-btn">Click Me</button>
+                        </div>
+                
+                        <div class="icon-btn">
+                            <button class="icon-btn-order"><i class="fas fa-shopping-bag icon-order"></i>Order</button>
+                        </div>
+                
+                        <div class="link">
+                            <button class="link-btn"><a  class="clink-me-link" href="/">Click Me!</a></button>
+                        </div>
+                
+                        <div class="float-btn">
+                            <button class="btn-float">+</button>
+                        </div>
                     </div>
                 </div>
 
                 <!-- card -->
                 <div id="card">
-                    <div class="card-badges">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                            enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                        <span class="card-badge1">4</span>
-                    </div>
-            
-                    <div class="card-dismiss">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                            enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                        <span class="card-dismiss-icon"><i class="fas fa-times-circle fa-1x"></i></span>
-                    </div>
-            
-                    <div class="card-overlay">
-                        <img src="https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ" class="card__image">
-                        <div class="card">
-                          <div class="overlay__text">
-                            <h3 >Mountain Trips</h3>
-                          </div>
-                        </div>
-                      </div>
-            
-                      <div class="card-with-text">
-                          <h3 class="h3-text">Card Title</h3>
-                        <p class="para">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam illo sunt
-                          hic voluptatum laborum? Ipsa, asperiores quaerat itaque iste maiores
-                          ipsum, suscipit cupiditate nesciunt quae in tempora. Tempora, beatae
-                          eligendi.
-                        </p>
-                      </div>
-            
-                      <div class="card-shadow">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                            enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </div>
-            
-                    <div class="cards">
-                        <div class="container">
-                          <img class="card-img" src="https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ" class="card__image" /></img>
-                          <span class="subheadings">
-                            <p class="header">Our Changing Planer
-                            <sub class="subtext">by Kurt Wagner</sub></p>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- image -->
-                    <div id="image">
-                        <div class="img-rectangular">
-                            <img
-                                class="rectangle"
-                                src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                            />
+                    <ul class="card-list">
+                        <p class="same-paragraph">6 Card-Component </p>
+                        <li>Card-Badge: Card contain badge</li>
+                        <li>Card-Dismiss: Added Card with cacel button icon</li>
+                        <li>Card-Overlay: Added Image with Text overlay </li>
+                        <li>Card-Text: Added Card with only text</li>
+                        <li>Card-Shadow: Added Card with a shadow background</li>
+                        <li>Card-Rectangulae: Added Short card with image</li>
+                    </ul>
+                    <div class="card-container">
+                        <div class="card-badges">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <span class="card-badge1">4</span>
                         </div>
                 
-                        <div class="img-circle">
-                            <img
-                                class="circle"
-                                src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                            />
+                        <div class="card-dismiss">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <span class="card-dismiss-icon"><i class="fas fa-times-circle fa-1x"></i></span>
+                        </div>
+                
+                        <div class="card-overlay">
+                            <img src="https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ" class="card__image">
+                            <div class="card">
+                            <div class="overlay__text">
+                                <h3 >Mountain Trips</h3>
+                            </div>
+                            </div>
+                        </div>
+                
+                        <div class="card-with-text">
+                            <h3 class="h3-text">Card Title</h3>
+                            <p class="para">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam illo sunt
+                            hic voluptatum laborum? Ipsa, asperiores quaerat itaque iste maiores
+                            ipsum, suscipit cupiditate nesciunt quae in tempora. Tempora, beatae
+                            eligendi.
+                            </p>
+                        </div>
+                
+                        <div class="card-shadow">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                
+                        <div class="cards">
+                            <div class="container">
+                            <img class="card-img" src="https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ" class="card__image" /></img>
+                            <span class="subheadings">
+                                <p class="card-header">Our Changing Planer
+                                <sub class="subtext">by Kurt Wagner</sub></p>
+                            </span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- image -->
+                    <div id="image">
+                        <ul class="img-list">
+                            <p class="same-paragraph">2 Image-Component </p>
+                            <li>Added Image with Rectangular Shape</li>
+                            <li>Added Image with Circular shape</li>
+                        </ul>
+                        <div class="img-container">
+                            <div class="img-rectangular">
+                                <img
+                                    class="rectangle"
+                                    src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                                />
+                            </div>
+                            <div class="img-circle">
+                                <img
+                                    class="circle"
+                                    src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                                />
+                            </div>
                         </div>
                     </div>
 
                     <!-- list -->
                     <div id="list">
-                    <ul class="unordered-list">
-                        <li class="ul-item">Item 1</li>
-                        <li class="ul-item">Item 2</li>
-                        <li class="ul-item">Item 3</li>
-                        <li class="ul-item">Item 4</li>
-                        <li class="ul-item">Item 5</li>
-                    </ul>
-            
-                    <ol class="ordered-list">
-                        <li class="ol-item">Item 1</li>
-                        <li class="ol-item">Item 2</li>
-                        <li class="ol-item">Item 3</li>
-                        <li class="ol-item">Item 4</li>
-                        <li class="ol-item">Item 5</li>
-                    </ol>
-            
-                    <ul class="icon-list">
-                        <li class="icon-item"><i class="fas fa-check-square"></i> Item 1</li>
-                        <li class="icon-item"><i class="far fa-square"></i> Item 2</li>
-                        <li class="icon-item"><i class="far fa-square"></i> Item 3</li>
-                        <li class="icon-item"><i class="fas fa-check-square"></i> Item 4</li>
-                        <li class="icon-item"><i class="far fa-square"></i> Item 5</li>
-                    </ul>
+                        <ul class="list-list">
+                            <p class="same-paragraph">3 List-Component </p>
+                            <li>Added Unordered List</li>
+                            <li>Added Ordered List</li>
+                            <li>Added Icon list</li>
+                        </ul>
+                        <div class="list-container">
+                            <ul class="unordered-list">
+                                <li class="ul-item">Item 1</li>
+                                <li class="ul-item">Item 2</li>
+                                <li class="ul-item">Item 3</li>
+                                <li class="ul-item">Item 4</li>
+                                <li class="ul-item">Item 5</li>
+                            </ul>
+                    
+                            <ol class="ordered-list">
+                                <li class="ol-item">Item 1</li>
+                                <li class="ol-item">Item 2</li>
+                                <li class="ol-item">Item 3</li>
+                                <li class="ol-item">Item 4</li>
+                                <li class="ol-item">Item 5</li>
+                            </ol>
+                    
+                            <ul class="icon-list">
+                                <li class="icon-item"><i class="fas fa-check-square"></i> Item 1</li>
+                                <li class="icon-item"><i class="far fa-square"></i> Item 2</li>
+                                <li class="icon-item"><i class="far fa-square"></i> Item 3</li>
+                                <li class="icon-item"><i class="fas fa-check-square"></i> Item 4</li>
+                                <li class="icon-item"><i class="far fa-square"></i> Item 5</li>
+                            </ul>
+                        </div>
                 </div>
                 <!-- modal -->
                 <div id="modal">
-                    <h1>Modal</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Consequatur ut impedit ipsum alias corporis? Quod consequuntur
-                        nesciunt, placeat laborum asperiores, aspernatur quisquam
-                        consequatur saepe nostrum omnis aliquid vel accusamus, laudantium
-                        blanditiis maxime distinctio harum. Ex provident odio accusantium
-                        fugit sequi veniam maiores beatae nesciunt placeat, quia alias
-                        deserunt. Illo, consequatur! Lorem ipsum dolor sit amet consectetur,
-                        adipisicing elit. Distinctio quasi possimus inventore deserunt odit
-                        doloremque omnis quae quia nulla mollitia voluptate praesentium, at
-                        asperiores quis, eveniet aperiam itaque? Hic, ea!
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Consequatur ut impedit ipsum alias corporis? Quod consequuntur
-                        nesciunt, placeat laborum asperiores, aspernatur quisquam
-                        consequatur saepe nostrum omnis aliquid vel accusamus, laudantium
-                        blanditiis maxime distinctio harum. Ex provident odio accusantium
-                        fugit sequi veniam maiores beatae nesciunt placeat, quia alias
-                        deserunt. Illo, consequatur! Lorem ipsum dolor sit amet consectetur,
-                        adipisicing elit. Distinctio quasi possimus inventore deserunt odit
-                        doloremque omnis quae quia nulla mollitia voluptate praesentium, at
-                        asperiores quis, eveniet aperiam itaque? Hic, ea!
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Consequatur ut impedit ipsum alias corporis? Quod consequuntur
-                        nesciunt, placeat laborum asperiores, aspernatur quisquam
-                        consequatur saepe nostrum omnis aliquid vel accusamus, laudantium
-                        blanditiis maxime distinctio harum. Ex provident odio accusantium
-                        fugit sequi veniam maiores beatae nesciunt placeat, quia alias
-                        deserunt. Illo, consequatur! Lorem ipsum dolor sit amet consectetur,
-                        adipisicing elit. Distinctio quasi possimus inventore deserunt odit
-                        doloremque omnis quae quia nulla mollitia voluptate praesentium, at
-                        asperiores quis, eveniet aperiam itaque? Hic, ea!
-                    </p>
-                <div class="modal">
-                    <div class="modal-overlay"></div>
-                        <h1 class="header">Modal View</h1>
-                        <p class="modal-text">
-                            Here is modal content which provide information to your project
-                            do you want to add something?
-                        </p>
-                        <div class="modal-footer">
-                            <button class="submit">Allow</button>
+                    <ul class="modal-list">
+                        <p class="same-paragraph">Modal-Component </p>
+                        <li>Added Model Component with text</li>
+                    </ul>
+                    <div class="modal-container">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Consequatur ut impedit ipsum alias corporis? Quod consequuntur
+                                nesciunt, placeat laborum asperiores, aspernatur quisquam
+                                consequatur saepe nostrum omnis aliquid vel accusamus, laudantium
+                                blanditiis maxime distinctio harum. Ex provident odio accusantium
+                                fugit sequi veniam maiores beatae nesciunt placeat, quia alias
+                                deserunt. Illo, consequatur! Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Distinctio quasi possimus inventore deserunt odit
+                                doloremque omnis quae quia nulla mollitia voluptate praesentium, at
+                                asperiores quis, eveniet aperiam itaque? Hic, ea!
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Consequatur ut impedit ipsum alias corporis? Quod consequuntur
+                                nesciunt, placeat laborum asperiores, aspernatur quisquam
+                                consequatur saepe nostrum omnis aliquid vel accusamus, laudantium
+                                blanditiis maxime distinctio harum. Ex provident odio accusantium
+                                fugit sequi veniam maiores beatae nesciunt placeat, quia alias
+                                deserunt. Illo, consequatur! Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Distinctio quasi possimus inventore deserunt odit
+                                doloremque omnis quae quia nulla mollitia voluptate praesentium, at
+                                asperiores quis, eveniet aperiam itaque? Hic, ea!
+                            </p>
+                            
+                        <div class="modal">
+                            <div class="modal-overlay"></div>
+                                <h1 class="header">Modal View</h1>
+                                <p class="modal-text">
+                                    Here is modal content which provide information to your project
+                                    do you want to add something?
+                                </p>
+                                <div class="modal-footer">
+                                    <button class="submit">Allow</button>
+                                </div>
+                            </div>
                         </div>
+                     </div>
+
+                <!-- navigation -->
+                <div id="navbar">
+                    <ul class="list-list">
+                        <p class="same-paragraph">Navigation-Component </p>
+                        <li>Added Unordered List</li>
+                    </ul>
+                    <div class="navbar-container">
+                        <nav class="navbar">
+                            <p class="head">MyWebsite</p>
+                            <input class="search" type="text" placeholder="Search"></input>
+                
+                            <div class="nav-right-container">
+                                <button class="login-btn">Login</button>
+                                <i class="far fa-heart fa-lg"></i>
+                                <i class="fas fa-shopping-cart fa-lg"></i>
+                            </div>
+                        </nav>
                     </div>
                 </div>
 
+                <!-- ratings -->
+                <div id="ratings">
+                    <ul class="ratings-list">
+                        <p class="same-paragraph">Rating-Component </p>
+                        <li>Added Rating Component</li>
+                    </ul>
+                    <div class="ratings-container">
+                        <div class="check-ratings">
+                            <span class="fa fa-star checking fa-2x"></span>
+                            <span class="fa fa-star checking fa-2x"></span>
+                            <span class="fa fa-star unchecked fa-2x"></span>
+                            <span class="fa fa-star unchecked fa-2x"></span>
+                            <span class="fa fa-star unchecked fa-2x"></span>
+                        </div>
+                
+                        <div class="ratings">
+                            <span class="fa fa-star unchecked fa-2x"></span>
+                            <span class="fa fa-star unchecked fa-2x"></span>
+                            <span class="fa fa-star unchecked fa-2x"></span>
+                            <span class="fa fa-star unchecked fa-2x"></span>
+                            <span class="fa fa-star unchecked fa-2x"></span>
+                        </div>
+                
+                        <div class="border-ratings">
+                            <span class="fa fa-star checked fa-2x"></span>
+                            <span class="fa fa-star checked fa-2x"></span>
+                            <span class="fa fa-star checked fa-2x"></span>
+                            <span class="fa fa-star checked fa-2x"></span>
+                            <span class="fa fa-star checked fa-2x"></span>
+                        </div>        
+                    </div>    
+                </div>
+
+                <!-- simplified-grid -->
+                <div id="simplified-grid">
+                    <ul class="ratings-list">
+                        <p class="same-paragraph">Simplified-Grid-Component </p>
+                        <li>Simplified Grid Component</li>
+                    </ul>
+                    <div class="grid-container-product">
+                        <div class="card-product">
+                            <img class="image-product" src="coat.jpg">
+                            <div class="card-title">
+                                <p class="img-label">Man Premium Coat</p>
+                                <label class="product-price"
+                                    >₹ 600 <del class="strike">₹ 3000</del></label
+                                >
+                                <p class="off">50% Off</p>
+                                <div class="quantity">
+                                    <span>Quantity:</span>
+                                    <span class="add">-</span>
+                                    <span class="quantity-total">1</span>
+                                    <span class="add">+</span>
+                                </div>
+                                <button class="remove-btn">Remove from Cart</button>
+                                <button class="move-btn">Move to Wishlist</button>
+                            </div>
+                        </div>
+            
+                        <div class="price-container">
+                            <p class="price-title">Card Title</p>
+            
+                            <div class="price-body">
+                                <label class="price-label">Price (2 items)<p class="price">₹ 1200</p></label>
+            
+                                <label  class="price-label">Discount<p class="price">- ₹ 1999</p></label>
+            
+                                <label class="price-label">Delivery Charges<p class="price">₹ 400</p></label>
+            
+                                <label class="price-label total">TOTAL AMOUNT<p class="price">₹ 1600</p></label>
+                            </div>
+            
+                            <p class="price-footer">You will save ₹1999 on this order</p>
+            
+                            <button class="place-order">Place Order</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- text-utilities -->
+                <div id="text-utilities">
+                    <ul class="ratings-list">
+                        <p class="same-paragraph">Text-Utilities-Component</p>
+                        <li>Added Heading Component</li>
+                        <li>Added Text with Different size</li>
+                        <li>Added Text with Different Font weight</li>
+                        <li>Added Text with Different Position</li>
+                    </ul>
+                    <div class="text-container">
+                        <div class="heading">
+                            <h1 class="h1">This is Heading1</h1>
+                            <h2 class="h2">This is Heading2</h2>
+                            <h3 class="h3">This is Heading3</h3>
+                            <h4 class="h4">This is Heading4</h4>
+                            <h5 class="h5">This is Heading5</h5>
+                        </div>
+                        <div class="text-size">
+                            <p class="txt-sm">This is small Text</p>
+                            <p class="txt-base">This is regular Text</p>
+                            <p class="txt-md">This is medium Text</p>
+                            <p class="txt-lg">This is large Text</p>
+                            <p class="txt-xl">This is extra large Text</p>
+                        </div>
+                        <div class="font-weight">
+                            <p class="font-300">Light Text</p>
+                            <p class="font-400">Regular Text</p>
+                            <p class="font-500">Medium Text</p>
+                            <p class="font-600">Semi-bold Text</p>
+                            <p class="font-700">Bold Text</p>
+                        </div>
+                        <div class="centered-text">
+                            <p class="start">Text Align Start</p>
+                            <p class="centered">Text Align Center</p>
+                            <p class="end">Text Align End</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- input-text -->
+                <div id="input">
+                    <ul class="ratings-list">
+                        <p class="same-paragraph">Input-Box Component</p>
+                        <li>Added Simple Input</li>
+                        <li>Added Input with icon </li>
+                        <li>Added Input with success</li>
+                        <li>Added Input with error</li>
+                    </ul>
+                    <div class="input-container">
+                        <link
+                            rel="stylesheet"
+                            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+                            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+                            crossorigin="anonymous"
+                        />
+                        <div class="input-box">
+                            <input class="form-control" placeholder="Email Id"></input>
+                        </div>
+                    
+                        <div class="input-icon">
+                            <input class="form-control-icon" placeholder="Email Id"><i class="fas fa-user icon" aria-hidden="true"></i></input>
+                        </div>
+                    
+                        <div class="input-success">
+                            <input class="form-control-success" placeholder="Email Id"></input>
+                        </div>
+                    
+                        <div class="input-error">
+                            <input class="form-control-error" placeholder="Email Id"></input>
+                        </div>
+                    </div>
+                </div>
+                <!-- snackbar -->
+                <div id="snackbar">
+                    <ul class="ratings-list">
+                        <p class="same-paragraph">Snackbar Component</p>
+                        <li>Added Snackbar component with text, Icon and Button</li>
+                    </ul>
+                    <div class="snackbar-container">
+                        <link
+                            rel="stylesheet"
+                            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+                            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+                            crossorigin="anonymous"
+                        />
+                        <div class="snackbar">
+                            <p class="snackbar-message">
+                                Can't send photo. Retry in 5 seconds.
+                            </p>
+                            <button class="snackbar-btn">Retry</button>
+                            <button class="snackbar-close">
+                                <i class="fas fa-times fa-1x"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
 
 
 
