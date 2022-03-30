@@ -314,22 +314,25 @@ body {
 /* dismiss */
 
 .card-dismiss {
-    width: 17rem;
-    height: 10rem;
+    width: 18vw;
+    height: 31vh;
+    position: relative;
     overflow: hidden;
-    background-color: var(--green-title-color);
-    padding: 0.9rem;
-    margin: 0.5rem;
-    color: var(--black-color);
+    margin: 1rem 0rem;
+    padding: 0rem 0.5rem;
+    background-color: var(--blue);
+    border-radius: 5px;
 }
-.card-dismiss-icon {
-    top: 13rem;
-    left: 290px;
-    position: absolute;
-    color: var(--white);
+.card-dismiss-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.card-dismiss-icom:hover {
-    color: var(--light-blue-color);
+.card-dismiss-title {
+}
+.card-subtitle {
+    font-size: 18px;
+    text-align: center;
 }
 
 /* card overlay */
@@ -391,8 +394,8 @@ body {
 /* horizontal card  */
 .card-img {
     position: relative;
-    width: 10rem;
-    height: 6rem;
+    width: 1005;
+    height: 7rem;
     border-radius: 0.75rem;
 }
 .cards {
@@ -409,8 +412,9 @@ body {
 .subheadings {
     margin-left: 0.75rem;
 }
-.header {
-    font-size: 1.2rem;
+.horizontal-card-header {
+    color: var(--black);
+    font-size: 1.6rem;
     font-weight: 500;
 }
 .subtext {
