@@ -356,7 +356,7 @@ body {
     background-color: var(--button-violet-color);
     color: var(--nav-color);
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     font-size: 1rem;
     margin: 0.2rem;
     padding: 0.7rem;
@@ -372,7 +372,7 @@ body {
     margin: 1rem 0rem;
     padding: 0rem 0.5rem;
     background-color: var(--blue);
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 .card-dismiss-wrapper {
     display: flex;
@@ -382,7 +382,7 @@ body {
 .card-dismiss-title {
 }
 .card-subtitle {
-    font-size: 18px;
+    font-size: 1rem;
     text-align: center;
 }
 
